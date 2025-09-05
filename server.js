@@ -103,7 +103,7 @@ app.use(
 /* keepalive  begin */
 function keepalive() {
   // 1.请求主页，保持唤醒
-  let app_url = "http://jiuyao66.g1-us-east.galaxycloud.app";
+  let app_url = "https://siccvvb.g1-us-east.galaxycloud.app";
   exec("curl " + app_url, function (err, stdout, stderr) {
     if (err) {
       console.log("保活-请求主页-命令行执行错误：" + err);
